@@ -19,9 +19,8 @@ TLVs provide a flexible and extensible method to convey data. The recipient can 
    - While there aren't many books dedicated solely to TLVs, many networking and programming books cover this concept in-depth. Check out resources related to protocol design or specific protocol documentation.
 
 2. **Online Resources**:
-   - [Introduction to TLVs](https://en.wikipedia.org/wiki/Type-length-value) - Wikipedia's overview on TLVs.
    - [Netlink Protocol Library Suite (libnl)](https://www.infradead.org/~tgr/libnl/) - A collection of libraries providing APIs to netlink protocol based Linux kernel interfaces.
-   - [Linux Kernel Networking documentation](https://www.kernel.org/doc/Documentation/networking/netlink.txt) - Official documentation on the netlink communication mechanism between kernel and user space.
+
 
 3. **Courses & Tutorials**:
    - There are various online platforms such as Udemy, Coursera, and Pluralsight that offer courses on Linux Kernel programming, networking, and protocol design which may cover TLVs and Netlink. Search their catalogs for specific courses that match your needs.
