@@ -11,31 +11,23 @@ The TLV (Type-Length-Value) format is a popular method for optional information 
 
 TLVs provide a flexible and extensible method to convey data. The recipient can quickly understand and parse the data, and if it encounters an unknown type, it can skip the section and continue processing the subsequent TLVs. This makes the TLV format a preferred choice for many applications ranging from telecommunications protocols to configuration data storage.
 
-## 📖 Table of Contents
-
-1. [Concept of TLVs](1_ConceptofTLVs.md)
-    - Dive deep into the foundational concepts of Type-Length-Value structures and understand their significance.
-
-2. [Parsing TLV Buffer](2_ParsingTLVBuffer.md)
-    - A guide on how to programmatically read and understand TLV buffers.
-
-3. [Netlink Attributes](3_NetlinkAttributes.md)
-    - Explore the integration of TLVs in the context of Netlink, understand how Netlink messages are structured, and how to work with them.
+---
 
 ## 📚 Additional Resources on TLVs and Netlink
 
 1. **Books**:
-   - ["Understanding TLVs: Deep Dive into Encoding and Decoding of TLVs"](https://link_to_book.com) by John Doe
-   - ["Netlink: Systems Communication in Linux"](https://link_to_netlink_book.com) by Jane Smith
-   
+   - While there aren't many books dedicated solely to TLVs, many networking and programming books cover this concept in-depth. Check out resources related to protocol design or specific protocol documentation.
+
 2. **Online Resources**:
-   - [Introduction to TLVs](https://link_to_relevant_resource.com)
-   - [Netlink Protocol Library Suite (libnl)](https://www.infradead.org/~tgr/libnl/)
-   - [Linux Kernel Networking documentation](https://www.kernel.org/doc/Documentation/networking/netlink.txt)
+   - [Introduction to TLVs](https://en.wikipedia.org/wiki/Type-length-value) - Wikipedia's overview on TLVs.
+   - [Netlink Protocol Library Suite (libnl)](https://www.infradead.org/~tgr/libnl/) - A collection of libraries providing APIs to netlink protocol based Linux kernel interfaces.
+   - [Linux Kernel Networking documentation](https://www.kernel.org/doc/Documentation/networking/netlink.txt) - Official documentation on the netlink communication mechanism between kernel and user space.
 
 3. **Courses & Tutorials**:
-   - ["Mastering TLVs"](https://link_to_course.com) by OnlineCoursePlatform
-   - ["Getting Started with Netlink"](https://link_to_netlink_tutorial.com) by TutorialWebsite
+   - There are various online platforms such as Udemy, Coursera, and Pluralsight that offer courses on Linux Kernel programming, networking, and protocol design which may cover TLVs and Netlink. Search their catalogs for specific courses that match your needs.
+
+---
+
 
 ## 📝 Contributing
 
